@@ -1,7 +1,7 @@
-VIR e-Care Solutions
+Angular 2 seed project - Webpack and Redux
 ==============================================
 
-This project holds the GUI for the Ecaris system. It requires Node to run locally and use the development tools, get it at https://nodejs.org
+It requires Node to run locally and use the development tools, get it at https://nodejs.org
 
 ## Installation
 
