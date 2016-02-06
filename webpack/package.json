@@ -1,0 +1,51 @@
+{
+  "name": "angular-2-seed",
+  "version": "0.0.1",
+  "license": "",
+  "description": "Angular 2 seed project using webpack.",
+  "author": "Jeroen Berndsen",
+  "scripts": {
+    "clean": "rimraf node_modules dist && npm cache clean",
+    "clean-install": "npm run clean && npm install",
+    "clean-start": "npm run clean && npm start",
+    "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached --hot",
+    "build": "rimraf dist && webpack --webpack-build --progress --profile --colors --display-error-details --display-cached",
+    "server": "webpack-dev-server --inline --progress --colors --display-error-details --display-cached --hot --port=3000",
+    "start": "npm run server"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.1",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "immutable": "^3.7.6",
+    "lodash": "^4.0.0",
+    "normalize-scss": "^4.0.3",
+    "redux": "^3.0.5",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^0.3.3",
+    "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.4",
+    "html-loader": "^0.4.0",
+    "html-webpack-plugin": "^1.7.0",
+    "json-loader": "^0.5.3",
+    "node-sass": "^3.4.2",
+    "raw-loader": "0.5.1",
+    "rimraf": "^2.4.4",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "support-for": "^1.0.3",
+    "susy": "^2.2.11",
+    "ts-loader": "^0.7.2",
+    "tslint": "^3.3.0",
+    "tslint-loader": "^2.1.0",
+    "typescript": "^1.7.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.12.1"
+  }
+}

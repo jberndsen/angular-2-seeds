@@ -1,0 +1,24 @@
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# OS generated files #
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Node Files #
+/node_modules
+/bower_components
+
+# Coverage #
+/coverage/
+
+# Dist #
+/dist
+
+# IDE #
+.idea/
+*.swp
+
+npm-debug.log
