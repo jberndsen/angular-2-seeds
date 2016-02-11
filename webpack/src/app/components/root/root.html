@@ -1,1 +1,6 @@
 My very first Angular 2 app!
+
+<input type="text" #mijninput />
+<button (click)="addTodo(mijninput.value)"></button>
+
+<todolist [todos]="state.todos"></todolist>

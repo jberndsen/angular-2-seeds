@@ -4,4 +4,10 @@ import {Injectable} from 'angular2/core';
 export class RootActionCreator {
     constructor() {}
     
+    addTodo(title: string) {
+        return {
+            type: "ADD_TODO",
+            title: title
+        }
+    }
 }
