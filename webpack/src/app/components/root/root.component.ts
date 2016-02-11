@@ -15,7 +15,8 @@ export class RootComponent {
     constructor(private store: Store, private actionCreator: RootActionCreator) {
         // I'm interested in state updates, so I subscribe to them
         store.subscribe(newState => {
-            this.state = newState.root;
+            this.state = newState.root.toJS();
+            console.log(this.state);
         });
     }
     
